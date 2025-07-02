@@ -1,5 +1,17 @@
 # HCI18_SEGMENTATION
 
+Welcome to **HC18_Segmentation**! This is a personal project where I segment HC using HCI18 dataset.
+
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Project Structure](#project-structure)
+3. [Setup](#setup)
+4. [Usage](#usage)
+
+## Introduction
+
+This project is designed to Segment HC and return a required result in csv format. This project may contain multiple components, including scripts, applications, and documentation.
+
 ## Project Structure
 
 ```
@@ -40,7 +52,13 @@
    ```bash
    git clone https://github.com/DungeonLeiz/HCI18_Segmentation.git
    cd HCI18_Segmentation/docs
-   pip/pip3 install -r requirements.txt
+   pip install -r requirements.txt
+   ```
+   or 
+   ```bash
+   git clone https://github.com/DungeonLeiz/HCI18_Segmentation.git
+   cd HCI18_Segmentation/docs
+   pip3 install -r requirements.txt
    ```
 
 ## Usage
@@ -49,12 +67,22 @@
 Train a Unet model from scratch:
 ```bash
 cd src/
-python/python3 train.py
+python train.py
+```
+or
+```bash
+cd src/
+python3 train.py
 ```
 
 ### Unet Testing & Metrics
 Run detailed evaluation, confusion matrix, and save predictions:
 ```bash
 cd src/utils/
-python/python3 predict.py
+python predict.py
+```
+or
+```bash
+cd src/utils/
+python3 predict.py
 ```
