@@ -1,0 +1,7 @@
+paths:
+  train_data: 'D:/Workspace/Research_Fields/mlmed2025/Practice_2_HCI18_Regression/data/training_set'
+  train_mask: 'D:/Workspace/Research_Fields/mlmed2025/Practice_2_HCI18_Regression/data/training_mask'
+  test_data: 'D:/Workspace/Research_Fields/mlmed2025/Practice_2_HCI18_Regression/data/test_set'
+  data_csv: 'D:/Workspace/Research_Fields/mlmed2025/Practice_2_HCI18_Regression/data'
+  model: 'D:/Workspace/Research_Fields/mlmed2025/Practice_2_HCI18_Regression/model'
+  figure: 'D:/Workspace/Research_Fields/mlmed2025/Practice_2_HCI18_Regression/report/figures'
